@@ -8,6 +8,7 @@ class About extends Component {
       var profilepic= "images/"+this.props.data.image;
       var bio = this.props.data.bio;
       var bioTwo = this.props.data.bioTwo;
+      var bioThree = this.props.data.bioThree;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
       var state = this.props.data.address.state;
@@ -28,6 +29,7 @@ class About extends Component {
 
             <p>{bio}</p>
             <p>{bioTwo}</p>
+             <p>{bioThree}</p>
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>

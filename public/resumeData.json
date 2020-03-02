@@ -6,7 +6,8 @@
     "image":"headshot.jpg",
     "bio":"My professional life began immediately after high school. At 18, I volunteered for the Navy's Nuclear Engineering program, completed the two-year school, and worked with two nuclear reactors onboard the USS Stennis for four years. I specialized in the electrical distribution systems, maintaining balance and continuity within the system. The program provided me with industry and operational experience at a young age. Seeing system-level operations during high intensity evolutions garnered an interest in the conceptualization, research, and design of other complex systems. I like to look at the big picture and determine how to make it bigger (or more efficient).",
     "bioTwo": "Currently looking for work in an exciting field that allows me to utilize my knowledge of back-end system design, operation, and logistics.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bioThree": "Side note: This site was deployed using Docker and AWS because.. why not?",
+    "contactmessage":"Feel free to reach out, always looking for new connections :)",
     "email": "sayer.tindall@gmail.com",
     "phone": "(417) 522-5049",
     "address":{
