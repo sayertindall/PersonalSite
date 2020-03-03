@@ -22,7 +22,8 @@
     "terser-webpack-plugin": "latest"
   },
   "scripts": {
-    "start": "node server/index.js && webpack -p --watch"
+    "start": "node server/index.js",
+    "heroku-postbuild": "webpack -p"
   },
   "devDependencies": {
     "nodemon": "^1.19.0"
