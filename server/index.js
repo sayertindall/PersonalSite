@@ -1,13 +1,15 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
 const app = express();
-const port = process.env.port || 3000;
+const path = require('path');
+const port = process.env.PORT || 3000;
+console.log("port: " , port)
 const cors = require('cors');
 const auth = require('./config');
-
-app.use(cors());
+console.log(path.join(__dirname, 'public'));
+// app.use(cors());
 app.use(express.json());
-app.use(express.static("public"))
+app.use(express.static(path.join(__dirname, 'public')));
 
 var transport = {
     host: 'smtp.gmail.com',

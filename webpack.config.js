@@ -1,5 +1,14 @@
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
+    mode: "production",
+    optimization: {
+        minimize: true,
+        minimizer: [new TerserPlugin({
+            extractComments: 'all',
+            cache: true,
+        })],
+    },
     devtool: 'eval-source-map',
     entry: __dirname + '/src/index.js',
     output: {
