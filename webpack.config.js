@@ -6,7 +6,7 @@ module.exports = {
         minimize: true,
         minimizer: [new TerserPlugin({
             extractComments: 'all',
-            cache: true,
+
         })],
     },
     devtool: 'eval-source-map',
